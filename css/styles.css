@@ -1,10 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: 'Noto Serif Display', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+nav {
+  background: linear-gradient(90deg, #574A97, #A9A8CF, #B194C0);
+  padding: 20px 0 20px 0;
+}
+
+nav a {
+  font-family: 'Noto Serif Display', serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover  {
+  color: #F1CF48;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-around;
 }
