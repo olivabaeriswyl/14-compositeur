@@ -83,3 +83,16 @@ ul strong {
 .informations_film-container {
   display: flex;
 }
+
+footer div {
+  background: linear-gradient(90deg, #574A97, #A9A8CF, #B194C0);
+  padding: 20px 0 20px 0;
+}
+
+.informations_bottom-container {
+  display: flex;
+}
+
+.contact-container {
+  display: flex;
+}
