@@ -84,9 +84,17 @@ ul strong {
   display: flex;
 }
 
-footer div {
+.footer-informations {
   background: linear-gradient(90deg, #574A97, #A9A8CF, #B194C0);
-  padding: 20px 0 20px 0;
+  padding: 20px;
+}
+
+footer img {
+  max-width: 30%
+}
+
+footer a {
+  max-width: 50px;
 }
 
 .informations_bottom-container {
@@ -95,4 +103,5 @@ footer div {
 
 .contact-container {
   display: flex;
+  justify-content: space-between
 }
