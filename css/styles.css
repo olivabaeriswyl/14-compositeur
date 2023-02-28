@@ -8,7 +8,8 @@ body {
   background: #ffffff;
   font-family: 'Noto Serif Display', serif;
   font-family: 'Raleway', sans-serif;
-
+  background-image: url(../img/fond.svg);
+  background-repeat: no-repeat;
 }
 
 img {
