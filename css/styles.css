@@ -20,6 +20,7 @@ img {
 nav {
   background: linear-gradient(90deg, #574A97, #A9A8CF, #B194C0);
   padding: 20px 0 20px 0;
+  max-width: 375px;
 }
 
 nav a {
@@ -48,8 +49,7 @@ h1 {
   margin-left: 20px;
 }
 
-h2 {
-  margin-top: 70px;    
+h2 {   
   background-image: url(../img/ornement-titre.svg);
   background-repeat: no-repeat;
 }
@@ -109,3 +109,9 @@ footer a {
   display: flex;
   justify-content: space-between
 }
+
+/*comment faire pour que le max-width soit de 375px que au nav et footer*/
+/*comment faire pour que la liste soit au bord*/
+/*comment faire le fond*/
+/*comment faire le tableau expliquatif du film*/
+/*comment faire la musique*/
