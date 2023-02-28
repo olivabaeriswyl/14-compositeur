@@ -50,8 +50,12 @@ h1 {
 }
 
 h2 {   
-  background-image: url(../img/ornement-titre.svg);
-  background-repeat: no-repeat;
+  margin-top: 70px;
+}
+
+main h3 {
+  font-size: 15px;
+  margin-top: 50px;
 }
 
 .sous-titre {
@@ -97,11 +101,13 @@ footer img {
   max-width: 30%;
 }
 
-footer a {
-  max-width: 50px;
+.end {
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 70px
 }
 
-.informations_bottom-container {
+.informations-bottom-container {
   display: flex;
 }
 
@@ -115,3 +121,4 @@ footer a {
 /*comment faire le fond*/
 /*comment faire le tableau expliquatif du film*/
 /*comment faire la musique*/
+/*comment enlever espace h1 et h3*/
