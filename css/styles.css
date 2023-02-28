@@ -8,6 +8,7 @@ body {
   background: #ffffff;
   font-family: 'Noto Serif Display', serif;
   font-family: 'Raleway', sans-serif;
+
 }
 
 img {
@@ -47,7 +48,9 @@ h1 {
 }
 
 h2 {
-  margin-top: 70px;
+  margin-top: 70px;    
+  background-image: url(../img/ornement-titre.svg);
+  background-repeat: no-repeat;
 }
 
 .sous-titre {
@@ -90,7 +93,7 @@ ul strong {
 }
 
 footer img {
-  max-width: 30%
+  max-width: 30%;
 }
 
 footer a {
