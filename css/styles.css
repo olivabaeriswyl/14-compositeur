@@ -38,7 +38,7 @@ a:hover  {
   justify-content: space-around;
 }
 
-h1, h2, .sous-titre {
+h1, h2, .header-titre {
   font-family: 'Noto Serif Display', serif;
 }
 
@@ -58,7 +58,7 @@ main h3 {
   margin-top: 50px;
 }
 
-.sous-titre {
+.header-titre {
   font-size: 14px;
   text-align: end;
   margin-right: 20px;
@@ -91,12 +91,7 @@ ul {
 ul strong {
   color: black;
 }
-
-.recap {
-  padding-left: 0;
-}
-
-.informations_film-container {
+.informations-film-container {
   display: flex;
 }
 
@@ -124,6 +119,9 @@ footer img {
   justify-content: space-between
 }
 
+.copyright {
+  font-size: 12px;
+  font-weight: normal;
+}
+
 /*comment faire pour que le max-width soit de 375px que au nav et footer*/
-/*comment faire le fond*/
-/*comment enlever espace h1 et h3*/
