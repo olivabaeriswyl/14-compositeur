@@ -8,8 +8,6 @@ body {
   background: #ffffff;
   font-family: 'Noto Serif Display', serif;
   font-family: 'Raleway', sans-serif;
-  background-image: url(../img/fond.svg);
-  background-repeat: no-repeat;
 }
 
 img {
@@ -51,6 +49,8 @@ h1 {
 
 h2 {   
   margin-top: 70px;
+  background-image: url(../img/ornement-titre.svg);
+  background-repeat: no-repeat;
 }
 
 main h3 {
@@ -82,10 +82,15 @@ strong {
 ul {
   font-size: 14px;
   list-style: none;
+  padding-left: 30px;
 }
 
 ul strong {
   color: black;
+}
+
+.recap {
+  padding-left: 0;
 }
 
 .informations_film-container {
@@ -117,8 +122,5 @@ footer img {
 }
 
 /*comment faire pour que le max-width soit de 375px que au nav et footer*/
-/*comment faire pour que la liste soit au bord*/
 /*comment faire le fond*/
-/*comment faire le tableau expliquatif du film*/
-/*comment faire la musique*/
 /*comment enlever espace h1 et h3*/
